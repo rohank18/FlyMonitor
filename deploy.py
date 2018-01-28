@@ -6,6 +6,8 @@ from PyQt5.QtWebEngineWidgets import QWebEnginePage
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import QUrl
 
+port = process.evn.PORT || 8080
+
 app = Flask(__name__)
 
 City = {'Silchar':'IXS','Delhi':'DEL','Guwahati':'GAU','Hyderabad':'HYD','Bangalore':'BLR','Mumbai':'BOM','Jaipur':'JAI','Kolkata':'CCU'}
@@ -76,5 +78,4 @@ def main():
 
 
 if __name__== '__main__':
-    main()
-    app.run()
+    
