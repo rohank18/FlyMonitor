@@ -2,7 +2,7 @@ Flask==0.12.2
 Flask-Gunicorn==0.1.1	
 Jinja2==2.10	
 jsonify==0.5
-request==2.18.4
+requests==2.18.4
 MarkupSafe==1.0	
 PyQt4Enhanced==0.1.1	
 PyQt5==5.9.2	
